@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_array">
+        <item>Brust/Trizeps</item>
+        <item>Beine</item>
+        <item>Bizeps</item>
+        <item>Brust</item>
+        <item>Rücken/Beine</item>
+        <item>Bauchmuskulatur</item>
+        <item>Waden</item>                
+    </string-array>
+
+</resources>

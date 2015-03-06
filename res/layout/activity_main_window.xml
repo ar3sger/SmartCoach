@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_radial">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/icon"
+            android:contentDescription="@string/SmartCoach" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button            
+			android:id="@+id/btn_startWorkout"
+			android:text="Training beginnen"
+			android:textColor="#000000"
+			android:textSize="27sp"
+			android:layout_width="170dp"
+			android:layout_height="170dp"
+			android:background="@drawable/btn_startworkout"
+			android:shadowColor="#000000"
+			android:shadowDx="0"
+			android:shadowDy="0"
+			android:shadowRadius="15" >
+		</Button>
+
+        <Button
+            android:id="@+id/btn_showRoutines"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_showexercises"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="15"
+            android:text="Alle Übungen anzeigen"
+            android:textColor="#000000"
+            android:textSize="27sp" >
+
+		</Button>
+
+    </LinearLayout>
+
+</LinearLayout>

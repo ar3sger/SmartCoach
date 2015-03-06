@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+  <de.itintouch.smartcoach.design.CircularImage
+      android:tag="mg"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:layout_gravity="center_vertical"
+      android:padding="10dp"
+      android:src="@drawable/ic_launcher" />
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:gravity="center_vertical"
+      android:orientation="vertical"
+      android:paddingEnd="0dp"
+      android:paddingLeft="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="name"
+        android:text="Name der Übung"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empfohlene Satzanzahl:" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="sets"
+        android:text="Sätze"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empfohlene Wiederholungen:" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="reps"
+        android:text="Wiederholungen"
+        android:textStyle="bold" />
+    
+    
+
+  </LinearLayout>
+
+
+</LinearLayout>
